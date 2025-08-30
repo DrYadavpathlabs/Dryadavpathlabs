@@ -1,4 +1,12 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js')
+    .then(reg => console.log('Service Worker registered!', reg))
+    .catch(err => console.log('Service Worker registration failed!', err));
+}
+</script>
+lang="en">
 <html lang="en">
 
 <head>
@@ -622,11 +630,5 @@
 
 </html>
 
-<script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js')
-    .then(reg => console.log('Service Worker registered!', reg))
-    .catch(err => console.log('Service Worker registration failed!', err));
-}
-</script>
+
 
