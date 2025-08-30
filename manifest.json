@@ -7,12 +7,12 @@
   "theme_color": "#0d6efd",
   "icons": [
     {
-      "src": "https://r.mobirisesite.com/1762024/assets/images/photo-1722407348192-a44ce8370-h_mepma05b.jpg",
+      "src": "/logo2.jpg",
       "sizes": "192x192",
       "type": "image/jpg"
     },
     {
-      "src": "https://r.mobirisesite.com/1762024/assets/images/photo-1722407348192-a44ce8370-h_mepma05b.jpg",
+      "src": "/logo2.jpg",
       "sizes": "512x512",
       "type": "image/jpg"
     }
