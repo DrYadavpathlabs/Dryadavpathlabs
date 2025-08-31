@@ -18,3 +18,25 @@
     }
   ]
 }
+
+{
+  "name": "DrYadavPathlabs",
+  "short_name": "DrYadavpathlabs",
+  "description": "A web app for reporting missing names on report cards",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "icons": [
+    {
+      "src": "/logo1.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo1.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ]
+}
